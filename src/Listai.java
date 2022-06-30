@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
 public class Listai {
     public static void main(String[] args) {
 
@@ -17,10 +15,7 @@ public class Listai {
 
         int skaitmuo=15;
 
-
-
         System.out.println("skaicius = " + skaicius);
-
 
         System.out.println(didesniUz(skaicius,skaitmuo));
 

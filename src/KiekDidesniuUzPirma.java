@@ -23,7 +23,7 @@ public class KiekDidesniuUzPirma {
             double didesniUzPirma = 0;
             for (int i = 0; i < skaicius.size(); i++) {
                 if (skaicius.get(i) > skaicius.get(n) ){
-                    didesniUzPirma++;
+                   didesniUzPirma++;
                 }
 
             }

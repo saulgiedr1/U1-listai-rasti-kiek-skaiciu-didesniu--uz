@@ -14,17 +14,22 @@ public class Listai {
         skaicius.add(17);
         skaicius.add(20);
 
+
+        int skaitmuo=15;
+
+
+
         System.out.println("skaicius = " + skaicius);
 
 
-        System.out.println(didesniUz(skaicius));
+        System.out.println(didesniUz(skaicius,skaitmuo));
 
 
     }
-    public static int didesniUz(ArrayList<Integer> skaicius) {
+    public static int didesniUz(ArrayList<Integer> skaicius , int x) {
         int didesni = 0;
         for (int i = 0; i < skaicius.size(); i++) {
-            if (skaicius.get(i) > 10) {
+            if (skaicius.get(i) > x) {
                 didesni++;
             }
 

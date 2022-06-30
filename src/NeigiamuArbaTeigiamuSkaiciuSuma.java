@@ -11,7 +11,7 @@ public class NeigiamuArbaTeigiamuSkaiciuSuma {
         skaicius.add(-25);
         skaicius.add(-98);
         skaicius.add(20);
-        skaicius.add(-20);
+        skaicius.add(-15);
 
 
         System.out.println("Skaiciai liste = " + skaicius);

@@ -22,7 +22,7 @@ public class NeigiamuArbaTeigiamuSkaiciuSuma {
         int neigiami=0;
         for (int i=0;  i < skaicius.size(); i++){
             if(skaicius.get(i) < 0){
-                neigiami+= skaicius.get(i);
+                neigiami += skaicius.get(i);
             }
         }
         return neigiami;
@@ -31,7 +31,7 @@ public class NeigiamuArbaTeigiamuSkaiciuSuma {
         int teigiami=0;
         for (int i=0;  i < skaicius.size(); i++){
             if(skaicius.get(i) > 0){
-                teigiami+= skaicius.get(i);
+                teigiami += skaicius.get(i);
             }
         }
         return teigiami;

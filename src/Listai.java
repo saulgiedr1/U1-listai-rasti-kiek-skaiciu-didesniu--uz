@@ -13,7 +13,7 @@ public class Listai {
         skaicius.add(20);
 
 
-        int skaitmuo=15;
+        int skaitmuo=1;
 
         System.out.println("skaicius = " + skaicius);
 
